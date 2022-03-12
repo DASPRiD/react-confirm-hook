@@ -1,6 +1,7 @@
 # React Confirm Hook
 
 [![Node.js CI](https://github.com/DASPRiD/react-confirm-hook/actions/workflows/ci.yml/badge.svg)](https://github.com/DASPRiD/react-confirm-hook/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/DASPRiD/react-confirm-hook/branch/main/graph/badge.svg?token=8KAJCE8J88)](https://codecov.io/gh/DASPRiD/react-confirm-hook)
 
 React Confirm Hook is a simple utility to easily manage confirm dialogs or similar components like toasts. It provides
 full Typescript support and can be used with any React UI framework.
