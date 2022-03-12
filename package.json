@@ -1,6 +1,6 @@
 {
   "name": "react-confirm-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Programmatically ask for user confirmation with custom confirm dialogs.",
   "scripts": {
     "test": "jest test --coverage",
