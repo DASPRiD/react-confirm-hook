@@ -4,6 +4,7 @@
   "description": "Programmatically ask for user confirmation with custom confirm dialogs.",
   "scripts": {
     "test": "jest test --coverage",
+    "lint": "eslint *.ts src test",
     "build": "tsc && vite build",
     "prepare": "husky install",
     "release": "standard-version --no-verify",
