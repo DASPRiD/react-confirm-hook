@@ -55,7 +55,7 @@ const ConfirmDialog = ({
 } : ConfirmDialogProps) : JSX.Element => (
     <Dialog
         open={open}
-        onClose={onClose}
+        onClose={onCancel}
         maxWidth="xs"
     >
         <DialogTitle>{title}</DialogTitle>
