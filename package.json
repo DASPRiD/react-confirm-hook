@@ -46,6 +46,6 @@
     "*.{ts,tsx}": "eslint --cache --fix"
   },
   "peerDependencies": {
-    "react": "^17.0.2"
+    "react": "^16.0.0"
   }
 }
