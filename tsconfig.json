@@ -1,0 +1,9 @@
+{
+    "extends": "@tsconfig/vite-react/tsconfig.json",
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "importsNotUsedAsValues": "error",
+        "jsx": "react-jsx"
+    }
+}

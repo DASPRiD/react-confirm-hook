@@ -1,5 +1,8 @@
 {
-    "extends": "eslint-config-dasprid",
+    "extends": [
+        "eslint-config-dasprid/react",
+        "plugin:react/jsx-runtime"
+    ],
     "parserOptions": {
         "project": "tsconfig.json"
     }
