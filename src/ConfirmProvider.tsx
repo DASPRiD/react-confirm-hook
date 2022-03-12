@@ -66,9 +66,9 @@ const ConfirmProvider = ({children} : ConfirmProviderProps) : JSX.Element => {
     }, [confirmRequest, isConfirming]);
 
     const handleConfirm = useCallback(() => {
-        (async () => {
-            setIsConfirming(true);
+        setIsConfirming(true);
 
+        (async () => {
             try {
                 if (confirmRequest) {
                     await confirmRequest.options.onConfirm();
