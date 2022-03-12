@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && vite build",
     "prepare": "husky install",
-    "release": "standard-version --no-verify"
+    "release": "standard-version --no-verify",
+    "prepack": "npm run build"
   },
   "standard-version": {
     "scripts": {
