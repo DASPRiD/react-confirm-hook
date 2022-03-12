@@ -4,6 +4,10 @@
         "noImplicitAny": true,
         "strictNullChecks": true,
         "importsNotUsedAsValues": "error",
-        "jsx": "react-jsx"
-    }
+        "jsx": "react-jsx",
+        "esModuleInterop": true
+    },
+    "include": [
+        "./src"
+    ]
 }

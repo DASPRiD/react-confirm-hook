@@ -4,6 +4,6 @@
         "plugin:react/jsx-runtime"
     ],
     "parserOptions": {
-        "project": "tsconfig.json"
+        "project": "tsconfig.eslint.json"
     }
 }

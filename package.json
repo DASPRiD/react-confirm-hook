@@ -2,9 +2,9 @@
   "name": "react-confirm-hook",
   "version": "1.0.0",
   "description": "Programmatically ask for user confirmation with custom confirm dialogs.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && vite build",
     "prepare": "husky install",
     "release": "standard-version --no-verify"
   },
@@ -13,6 +13,16 @@
       "posttag": "git push && git push --tags"
     }
   },
+  "files": ["dist"],
+  "main": "./dist/my-lib.umd.js",
+  "module": "./dist/my-lib.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-lib.es.js",
+      "require": "./dist/my-lib.umd.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DASPRiD/react-confirm-hook.git"
@@ -32,20 +42,23 @@
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
+    "@rollup/plugin-typescript": "^8.3.1",
     "@tsconfig/vite-react": "^1.0.0",
     "@types/react": "^17.0.40",
+    "@vitejs/plugin-react": "^1.2.0",
     "eslint": "^8.11.0",
     "eslint-config-dasprid": "^0.1.8",
     "eslint-plugin-react": "^7.29.3",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.5",
     "standard-version": "^9.3.2",
-    "typescript": "~4.5"
+    "typescript": "~4.5",
+    "vite": "^2.8.6"
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint --cache --fix"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0 || ^17.0.0"
   }
 }
