@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/DASPRiD/react-confirm-hook/compare/v1.0.1...v1.0.2) (2022-08-13)
+
+
+### Bug Fixes
+
+* set correct dist filenames in package.json ([c7480af](https://github.com/DASPRiD/react-confirm-hook/commit/c7480af1b5f5619a526ffa7ed111155e0ff2c502))
+
 ### [1.0.1](https://github.com/DASPRiD/react-confirm-hook/compare/v1.0.0...v1.0.1) (2022-03-12)
 
 ## 1.0.0 (2022-03-12)
