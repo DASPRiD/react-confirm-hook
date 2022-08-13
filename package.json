@@ -18,12 +18,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/my-lib.umd.js",
-  "module": "./dist/my-lib.es.js",
+  "main": "./dist/react-confirm-hook.umd.js",
+  "module": "./dist/react-confirm-hook.es.js",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.es.js",
-      "require": "./dist/my-lib.umd.js"
+      "import": "./dist/react-confirm-hook.es.js",
+      "require": "./dist/react-confirm-hook.umd.js"
     }
   },
   "types": "./dist/index.d.ts",
