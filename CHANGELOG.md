@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/DASPRiD/react-confirm-hook/compare/v1.0.2...v1.0.3) (2023-04-19)
+
+
+### Bug Fixes
+
+* allow React 18 as peer dependency ([416fcce](https://github.com/DASPRiD/react-confirm-hook/commit/416fcce4a37909c57566cd45b668835795e112fa))
+* fix package.json syntax ([9612dc0](https://github.com/DASPRiD/react-confirm-hook/commit/9612dc0e67021f4b6ec10e079d07b95144d46e31))
+
 ### [1.0.2](https://github.com/DASPRiD/react-confirm-hook/compare/v1.0.1...v1.0.2) (2022-08-13)
 
 
