@@ -23,7 +23,8 @@
   "exports": {
     ".": {
       "import": "./dist/react-confirm-hook.es.js",
-      "require": "./dist/react-confirm-hook.umd.js"
+      "require": "./dist/react-confirm-hook.umd.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "types": "./dist/index.d.ts",
