@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/DASPRiD/react-confirm-hook/compare/v1.0.3...v1.0.4) (2023-05-12)
+
+
+### Bug Fixes
+
+* add types to exports definition ([889f09f](https://github.com/DASPRiD/react-confirm-hook/commit/889f09fe4ae410c45d749d7121d07bd02774b5b8))
+
 ### [1.0.3](https://github.com/DASPRiD/react-confirm-hook/compare/v1.0.2...v1.0.3) (2023-04-19)
 
 
