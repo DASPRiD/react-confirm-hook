@@ -43,7 +43,7 @@ type ConfirmProviderProps = {
     children ?: ReactNode | undefined;
 };
 
-const ConfirmProvider = ({children} : ConfirmProviderProps) : JSX.Element => {
+const ConfirmProvider = ({children} : ConfirmProviderProps) : ReactNode => {
     const [confirmRequest, setConfirmRequest] = useState<ConfirmRequest<ConfirmProps> | null>(null);
     const [isConfirming, setIsConfirming] = useState(false);
     const [open, setOpen] = useState(false);

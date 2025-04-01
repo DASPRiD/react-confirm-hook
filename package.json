@@ -20,14 +20,14 @@
   ],
   "main": "./dist/react-confirm-hook.umd.js",
   "module": "./dist/react-confirm-hook.es.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/react-confirm-hook.es.js",
-      "require": "./dist/react-confirm-hook.umd.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/react-confirm-hook.umd.js"
     }
   },
-  "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DASPRiD/react-confirm-hook.git"
@@ -47,14 +47,14 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^17.6.1",
-    "@rollup/plugin-typescript": "^11.1.0",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
     "@tsconfig/vite-react": "^1.0.1",
     "@types/jest": "^29.5.1",
-    "@types/react": "^18.0.37",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^3.1.0",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^8.38.0",
     "eslint-config-dasprid": "^0.1.15",
     "eslint-plugin-react": "^7.32.2",
@@ -62,16 +62,16 @@
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
     "lint-staged": "^13.2.1",
-    "react-dom": "^18.2.0",
+    "react-dom": "^19.1.0",
     "standard-version": "^9.5.0",
     "ts-jest": "^29.1.0",
-    "typescript": "~5.0",
-    "vite": "^4.2.2"
+    "typescript": "^5.0",
+    "vite": "^6.2.4"
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint --cache --fix"
   },
   "peerDependencies": {
-    "react": "^16.0.0 || ^17.0.0 || ^18.0.0"
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   }
 }
