@@ -1,15 +1,12 @@
 import path from 'path';
-import typescript from '@rollup/plugin-typescript';
+import dts from 'vite-plugin-dts'
 import react from '@vitejs/plugin-react';
 import {defineConfig} from 'vite';
 
 export default defineConfig({
     plugins: [
         react(),
-        typescript({
-            declaration: true,
-            declarationDir: path.resolve(__dirname, 'dist'),
-        }),
+        dts(),
     ],
     build: {
         lib: {
@@ -25,5 +22,9 @@ export default defineConfig({
                 },
             },
         },
+    },
+    test: {
+        environment: "jsdom",
+        globals: true,
     },
 });

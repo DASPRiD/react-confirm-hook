@@ -1,6 +1,6 @@
 # React Confirm Hook
 
-[![Node.js CI](https://github.com/DASPRiD/react-confirm-hook/actions/workflows/ci.yml/badge.svg)](https://github.com/DASPRiD/react-confirm-hook/actions/workflows/ci.yml)
+[![Release](https://github.com/DASPRiD/react-confirm-hook/actions/workflows/release.yml/badge.svg)](https://github.com/DASPRiD/react-confirm-hook/actions/workflows/release.yml)
 [![codecov](https://codecov.io/gh/DASPRiD/react-confirm-hook/branch/main/graph/badge.svg?token=8KAJCE8J88)](https://codecov.io/gh/DASPRiD/react-confirm-hook)
 
 React Confirm Hook is a simple utility to easily manage confirm dialogs or similar components like toasts. It provides
@@ -52,7 +52,7 @@ const ConfirmDialog = ({
     onConfirm,
     onCancel,
     isConfirming,
-} : ConfirmDialogProps) : JSX.Element => (
+} : ConfirmDialogProps): ReactNode => (
     <Dialog
         open={open}
         onClose={onCancel}
@@ -68,7 +68,7 @@ const ConfirmDialog = ({
             <Button
                 autoFocus
                 onClick={onCancel}
-                disabled={confirming}
+                disabled={isConfirming}
             >
                 Cancel
             </Button>
@@ -91,7 +91,7 @@ Once you have your confirm dialog component, you can now use it directly in any 
 ```typescript jsx
 import ConfirmDialog from './ConfirmDialog';
 
-const Foobar = () : JSX.Element => {
+const Foobar = () : ReactNode => {
     const confirm = useConfirm(ConfirmDialog);
     
     return (
