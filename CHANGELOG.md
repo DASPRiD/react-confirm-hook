@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/DASPRiD/react-confirm-hook/compare/v1.0.4...v1.1.0) (2025-04-01)
+
+
+### Features
+
+* add support for react 19 ([fb70cf7](https://github.com/DASPRiD/react-confirm-hook/commit/fb70cf7e6265d0d585791a30705be3612385dfee))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
