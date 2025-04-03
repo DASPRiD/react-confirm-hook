@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/DASPRiD/react-confirm-hook/compare/v1.1.0...v1.1.1) (2025-04-03)
+
+
+### Bug Fixes
+
+* do not include JSX runtime in build ([c0ed0f8](https://github.com/DASPRiD/react-confirm-hook/commit/c0ed0f8b6e65f7e26993dbe3afca5427525c5364))
+
 # [1.1.0](https://github.com/DASPRiD/react-confirm-hook/compare/v1.0.4...v1.1.0) (2025-04-01)
 
 
