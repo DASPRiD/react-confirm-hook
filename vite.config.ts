@@ -15,10 +15,11 @@ export default defineConfig({
             fileName: format => `react-confirm-hook.${format}.js`,
         },
         rollupOptions: {
-            external: ['react'],
+            external: ['react', 'react/jsx-runtime'],
             output: {
                 globals: {
                     react: 'React',
+                    "react/jsx-runtime": "JSX",
                 },
             },
         },
